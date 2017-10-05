@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+<!-- Basic Page Needs
+     – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – -->
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Contact</title>
+    <meta name="author" content="J. Farrell">
+    <meta name = "keywords" content = "jonathan farrell, jonathan, farrell, it, programming, hospitality, design, employment, personal website">
+    <meta name = "description" content = "Personal website for Jonathan Farrell; programmer, designer, bartender">
+	
+<!-- Mobile Specific Metas
+     – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – - – – -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS
+     – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – -->
+    <link rel="stylesheet" href="css/normalizecompressed.css">
+    <link rel="stylesheet" href="css/skeletoncompressed.css">
+    <link rel="stylesheet" href="css/mystylescompressed.css">
+	
+<!-- Javascript
+     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	 <script type="text/javascript" src="myscripts.js"></script>
+
+<!-- Favicon
+     – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  </head>
+  <body>
+<!-- Primary Page Layout
+	 - - - - - - - - - - - - - – – – – – – – – – – – – – – – – – – – – - - - - - - - - - - - - - - - - - -->
+	  <div class="twelve columns">
+    <!-- Navigation bar
+     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <nav>
+          <ul class="navBar">
+            <li class="navBar"><a class="navBar" href = "index.html">Home</a></li>
+            <li class="navBar"><a class="navBar" href = "employment.html">Employment</a></li>
+            <li class="navBar"><a class="navBar" href = "education.html">Education</a></li>
+            <li class="navBar"><a class="navBar" href = "certificates.html">Certificates</a></li>
+            <li class="navBar"><a class="navBar" href = "hobbies.html">Hobbies</a></li>
+            <li class="navBar"><a class="navBar" href = "contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    <!-- Content
+     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	    <div class = "twelve columns fullHeader">
+	      <header>Contact</header>
+	    </div>
+	    <main class = "twelve columns mainLeft">
+		  <table class = "contact">
+		    <tr>
+              <th colspan = "2">My Details</th>
+            </tr>
+            <tr>
+              <th>Email</th>
+              <td>jonathan.gorselodge@gmail.com</td>
+            </tr>
+            <tr>
+              <th>Phone Number</th>
+              <td>+353-87-222-1111</td>
+            </tr>
+		    <tr>
+              <th>LinkedIn</th>
+              <td><a href = "http://www.l1nkedin.com/JFarrell">www.LinkedIn.com/JFarrell</a></td>
+            </tr>
+		    <tr>
+              <th>SkypeID</th>
+              <td>jonathanfarrell89</td>
+            </tr>
+          </table>
+	  	  <br>
+		  <div class = "contact">
+		    <b>Give me your email and I'll send you an up to date CV</b>
+		    <br><br>
+		    <form onsubmit = "clicked()"  action = "#" method = "get"> <!-- PLEASE NOTE: because this website is not hosted, and I do not have server side technology set up for this, I have entered '#' as the target, this would otherwise be the URL ending in .php or .asp, where my mailing list is stored.-->
+		    Email: <input type = "email" name = "email" id="email">
+		    <br>
+		    <br>
+		    <input type = "submit" value = "Send me a CV"><input type ="reset"><!-- NOT WORKING, onclicked function doesnt work with 'email' validators, need both-->
+		    </form>
+	      </div>
+        </main>
+      </div>		
+<!-- End Document
+	 – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – - - - - - - - - – – -->
+  </body>
+</html>

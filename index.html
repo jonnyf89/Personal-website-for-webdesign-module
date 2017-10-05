@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+<!-- Basic Page Needs
+     – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – -->
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Home</title>
+    <meta name="author" content="J. Farrell">
+	<meta name = "keywords" content = "jonathan farrell, jonathan, farrell, it, programming, hospitality, design, employment, personal website">
+	<meta name = "description" content = "Personal website for Jonathan Farrell; programmer, designer, bartender">
+
+<!-- Mobile Specific Metas
+     – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – - – – -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS
+     – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – -->
+    <link rel="stylesheet" href="css/normalizecompressed.css">
+    <link rel="stylesheet" href="css/skeletoncompressed.css">
+    <link rel="stylesheet" href="css/mystylescompressed.css">
+
+<!-- Favicon
+     – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+  </head>
+  <body>
+<!-- Primary Page Layout
+	 - - - - - - - - - - - - - – – – – – – – – – – – – – – – – – – – – - - - - - - - - - - - - - - - - - -->
+    <div class = "twelve columns"> 
+
+<!-- Left Column
+	 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	    <div class="seven columns" style = "margin top: 10%">
+		
+    <!-- Navigation bar
+         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+		  <nav>
+            <ul class="navBar">
+              <li class="navBar"><a class="navBar" href = "index.html">Home</a></li>
+              <li class="navBar"><a class="navBar" href = "employment.html">Employment</a></li>
+              <li class="navBar"><a class="navBar" href = "education.html">Education</a></li>
+              <li class="navBar"><a class="navBar" href = "certificates.html">Certificates</a></li>
+              <li class="navBar"><a class="navBar" href = "hobbies.html">Hobbies</a></li>
+              <li class="navBar"><a class="navBar" href = "contact.html">Contact</a></li>
+            </ul>
+          </nav>
+		  <div class= "mainLeft">
+		    <div>
+              <img src = "images/meCropped2.jpg" alt = "my picture" class = "roundImage">
+		    </div>
+		    <div class = "homepageText">
+			  <h5 style = "text-align: center;"> Jonathan Farrell</h5>
+	          <p>
+		        Iram pande mihi Pelidae, Diua, superbi
+                Tristia quae miseris iniecit funera Grais
+                Atque animas fortes heroum tradidit Orco
+                Latrantumque dedit rostris uolucrumque trahendos
+                Illorum exsangues, inhumatis ossibus, artus.
+                Confiebat enim summi sententia regis,
+                protulerant* ex quo discordia pectora pugnas,
+                Sceptriger Atrides et bello clarus Achilles.
+		 	    Quis deus hos ira tristi contendere iussit?
+                Latonae et magni proles Iouis. Ille Pelasgum
+                infestam regi pestem in praecordia misit
+                implicuitque graui Danaorum corpora morbo.
+			    Nam quondam Chryses, sollemni tempora uitta
+			    implicitus, raptae fleuit solacia natae
+			    inuisosque dies inuisaque tempora noctis
+			    egit et assiduis impleuit questibus auras.
+			    Postquam nulla dies animum maerore leuabat
+			    nullaque lenibant patrios solacia fletus,
+			    castra petit Danaum genibusque affusus Atridae
+			    per superos regnique decus miserabilis orat,
+			    ut sibi causa suae reddatur nata salutis.
+			    Dona simul praefert. Vincuntur fletibus eius
+			    Myrmidones reddique patri Chryseida censent.
+			    Sed negat Atrides Chrysenque excedere castris
+			   despecta pietate iubet: ferus ossibus imis
+			   haeret amor spernitque preces damnosa libido.
+		      </p>
+		    </div>
+          </div>
+	    </div>
+		
+<!-- Right Column
+	 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        <!-- The career ladder contains links to specific parts of the education and employmemt history pages.
+	     I have used ids here as anchors, these do not exist in mystyles.css because they are not needed for styling --> 
+	  <div class="five columns" style = "margin top: 10%">
+	    <div class = "clockHolder">
+		
+	<!-- Clock
+		 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	  	  <p id="demo"></p>
+          <script>
+            document.getElementById("demo").innerHTML = Date();
+          </script>
+        </div>
+	    <div class =  "mainRight">
+		
+	<!-- Career Ladder
+		 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+	  	  <p><u>Career Ladder</u></p>
+	      <div class="map">
+		    <br>
+            <img src="images/3simple3coloredCropped.png" alt = "Carrer Ladder">  
+            <a href="education.html#DIT" class="DITLink"></a>
+            <a href="employment.html#Slainte" class="SlainteLink"></a>
+            <a href="employment.html#MS" class="MSLink"></a>
+		    <a href="education.html#UCD" class="UCDLink"></a>
+		    <a href="education.html#Ger" class="GerardsLink"></a>
+		    <a href="education.html#Mon" class="MoneystownLink"></a>
+          </div>
+        </div>
+	  </div>
+    </div>
+	
+<!-- End Document
+	 – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – – - - - - - - - - – – -->
+  </body>
+</html>
